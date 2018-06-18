@@ -1,2 +1,8 @@
-$cor-padrao: #c24e4b;
+$cor-padrao: darken(#c24e4b, 0);
+$cor-auxiliar: lighten(#1e2c35, 0);
+$cor-auxiliar-saturada: saturate(#1e2c35, 50);
+$cor-auxiliar-ajusteMatriz: adjust-hue(#1e2c35, 50);
+$cor-auxiliar-complemento: complement(#1e2c35);
 $cor-branca: #FFF;
+
+$raio: 0.3em;

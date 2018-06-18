@@ -19,7 +19,7 @@ footer::after {
 
 footer::before {
   content: "";
-  background: #1e2c35;
+  background: $cor-auxiliar;
   top: 0;
   left: 0;
   bottom: 0;
@@ -76,7 +76,7 @@ footer a {
   display: block;
   width: 55px;
   height: 55px;
-  @include image-replace;
+  @extend %image-replace;
   margin-left: 1em;
 }
 
